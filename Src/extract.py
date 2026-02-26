@@ -19,3 +19,8 @@ def extract_matches():
     ])
 
     return df
+    
+if __name__ == "__main__":
+    df = extract_matches()
+    print(df.head())
+    print(f"Rows extracted: {len(df)}")
